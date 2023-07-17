@@ -5,6 +5,12 @@ VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AC-Calendar-API", "AC-Calendar-API.csproj", "{B2B17CC6-38C5-4A95-9C41-DE3109CD79A5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AC-Calendar-API-Domain-Layer", "..\AC-Calendar-API-Domain-Layer\AC-Calendar-API-Domain-Layer.csproj", "{FFCE51E1-3392-41F7-877C-A1E43467E361}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AC-Calendar-API-Repository-Layer", "..\AC-Calendar-API-Repository-Layer\AC-Calendar-API-Repository-Layer.csproj", "{4E8C4176-8C5F-483E-B1E4-2E40989168DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AC-Calendar-API-Service-Layer", "..\AC-Calendar-API-Service-Layer\AC-Calendar-API-Service-Layer.csproj", "{2E893C83-9F42-41D6-A91C-4DC1614EE38F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +21,18 @@ Global
 		{B2B17CC6-38C5-4A95-9C41-DE3109CD79A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B2B17CC6-38C5-4A95-9C41-DE3109CD79A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B2B17CC6-38C5-4A95-9C41-DE3109CD79A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFCE51E1-3392-41F7-877C-A1E43467E361}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFCE51E1-3392-41F7-877C-A1E43467E361}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFCE51E1-3392-41F7-877C-A1E43467E361}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFCE51E1-3392-41F7-877C-A1E43467E361}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E8C4176-8C5F-483E-B1E4-2E40989168DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E8C4176-8C5F-483E-B1E4-2E40989168DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E8C4176-8C5F-483E-B1E4-2E40989168DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E8C4176-8C5F-483E-B1E4-2E40989168DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E893C83-9F42-41D6-A91C-4DC1614EE38F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E893C83-9F42-41D6-A91C-4DC1614EE38F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E893C83-9F42-41D6-A91C-4DC1614EE38F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E893C83-9F42-41D6-A91C-4DC1614EE38F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
